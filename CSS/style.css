@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+body{
+    font-family: 'Recursive', sans-serif;
+}
+.todo-box {
+    min-height: 80vh;
+    width: 100%;
+    border-radius: 25px;
+    background-color:#95a5a6;
+    padding: 2rem;
+    max-width: 20rem;
+}
+.todo-items ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.todo-items ul li button {
+    margin-left: auto;
+}
+
+#todoInput {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+
+#todoSubmit {
+    background-color: #4a69bd;
+    border-color: #4a69bd;
+    border-radius: 30px;
+}
+
+#todoInput:focus {
+    box-shadow: none !important;
+}
+
+#todoDone {
+    background-color: #b8e994;
+    border-color: #b8e994;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1rem;
+}
+
+#todoDone:hover {
+    background-color: #e55039;
+    border-color: #e55039;
+}
+
+.bgClass {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.layer {
+    background-color: rgba(0,0,0, 0.5);
+    height: 100vh;
+}
+
+h1 {
+    color: #fff;
+}
+
+#quotes, #learn {
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #fff;
+}
